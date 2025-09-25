@@ -1,156 +1,224 @@
+<!-- Solatech Computers Private Limited (Trading as Lauthan Technology) Website Template -->
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lauthan Technology | Solatech Computers Private Limited</title>
-  <link rel="stylesheet" href="./css/molecule.css">
-  <link rel="icon" href="./images/favicon.png" type="image/png">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lauthan Technology | Solatech Computers Pvt Ltd</title>
+	<link rel="icon" type="image/png" href="./images/logo.png">
+	<link rel="stylesheet" type="text/css" href="./css/molecule.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" crossorigin="anonymous" />
 </head>
 <body>
-  <!-- Header -->
-  <header class="header">
-    <div class="logo">
-      <img src="./images/logo.png" alt="Lauthan Technology Logo">
-      <span>Lauthan Technology</span>
-    </div>
-    <nav class="nav">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About Us</a></li>
-        <li><a href="#services">Products & Services</a></li>
-        <li><a href="#solutions">Solutions</a></li>
-        <li><a href="#careers">Careers</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+	<!-- Navigation -->
+	<div class="navbar" id="navbar">
+		<div class="nav-logo">
+			<img src="./images/logo.png" alt="Lauthan Technology Logo">
+		</div>
+		<ul class="nav-items">
+			<li><a href="#" class="active-item">Home</a></li>
+			<li><a href="#about">About Us</a></li>
+			<li><a href="#services">Products & Services</a></li>
+			<li><a href="#solutions">Solutions</a></li>
+			<li><a href="#careers">Careers</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+		<div class="nav-button">
+			<a href="#contact" class="filled-button">Get in Touch</a>
+			<div class="hamburger">
+				<i class="fa-solid fa-bars"></i>
+				<i class="fa-solid fa-xmark"></i>
+			</div>
+		</div>
+	</div>
 
-  <!-- Hero Section -->
-  <section class="main-section">
-    <div class="main-section-text">
-      <h3>Innovative IT Solutions by<br>
-        <span class="ml-1">Lauthan Technology</span>
-      </h3>
-      <p class="mt-2">
-        Solatech Computers Private Limited, trading as Lauthan Technology,
-        delivers trusted IT solutions, computer hardware, and digital services
-        designed to empower businesses and individuals.
-      </p>
-      <div class="mt-2">
-        <a href="#services" class="filled-button">Our Services</a>
-        <a href="#contact" class="normal-button">Get in Touch</a>
-      </div>
-    </div>
-    <div class="main-section-mockup">
-      <img src="./images/tech-mockup.png" alt="Lauthan Technology IT Solutions">
-    </div>
-  </section>
+	<!-- Hero -->
+	<div class="main-section">
+		<div class="main-section-text">
+			<h3>Empowering Businesses with <br><span class="ml-1">Innovative IT Solutions</span></h3>
+			<p class="mt-2">At Lauthan Technology (Solatech Computers Pvt Ltd), we provide cutting-edge computer hardware, software, and IT services designed to help businesses and individuals thrive in the digital era.</p>
+			<div class="mt-2">
+				<a href="#contact" class="filled-button">Contact Us</a>
+			</div>
+		</div>
+		<div class="main-section-mockup">
+			<img src="./images/tech-hero.png" alt="Lauthan Technology Solutions">
+		</div>
+	</div>
 
-  <!-- About -->
-  <section id="about" class="section">
-    <h2>About Us</h2>
-    <p>
-      Lauthan Technology is the trade name of Solatech Computers Private Limited.
-      With years of experience in the IT industry, we provide end-to-end
-      technology services — from computer sales and repairs to networking,
-      software solutions, and IT consulting.
-    </p>
-  </section>
+	<!-- Partners -->
+	<div class="submenu">
+		<p>Trusted by businesses and technology partners</p>
+		<div class="submenu-img">
+			<img src="./images/partner1.png">
+			<img src="./images/partner2.png">
+			<img src="./images/partner3.png">
+			<img src="./images/partner4.png">
+		</div>
+	</div>
 
-  <!-- Services -->
-  <section id="services" class="section">
-    <h2>Our Products & Services</h2>
-    <div class="features">
-      <div class="feature">
-        <h3>💻 Computer Sales & Repairs</h3>
-        <p>High-quality desktops, laptops, and accessories with reliable repair services.</p>
-      </div>
-      <div class="feature">
-        <h3>🌐 Networking Solutions</h3>
-        <p>Design and setup of wired and wireless networks for businesses and homes.</p>
-      </div>
-      <div class="feature">
-        <h3>🔑 Software & Licensing</h3>
-        <p>Supply and installation of genuine software with license management.</p>
-      </div>
-      <div class="feature">
-        <h3>🛠️ IT Consulting & Support</h3>
-        <p>Tailored IT solutions and ongoing technical support for business growth.</p>
-      </div>
-    </div>
-  </section>
+	<!-- Services -->
+	<div class="features mt-4" id="services" data-aos="fade-up" data-aos-duration="2000">
+		<div class="features-mockup">
+			<img src="./images/services.png" alt="IT Services">
+		</div>
+		<div class="features-text">
+			<i class="yellow">Our Services</i>
+			<h3 class="mt-2">Comprehensive IT & Technology Solutions</h3>
+			<p class="mt-2">From hardware to cloud services, Lauthan Technology offers a complete range of IT solutions tailored for your business needs.</p>
+			<div class="features-grid mt-2">
+				<div class="grid-item">
+					<img src="./images/computers.png">
+					<h6 class="yellow-text">Computer Sales & Repairs</h6>
+					<p class="mt-3">High-quality laptops, desktops, and accessories with professional repair services.</p>
+				</div>
+				<div class="grid-item">
+					<img src="./images/networking.png">
+					<h6 class="yellow-text">Networking Solutions</h6>
+					<p class="mt-3">Reliable internet, LAN/WAN setups, and secure networking for businesses.</p>
+				</div>
+				<div class="grid-item">
+					<img src="./images/software.png">
+					<h6 class="yellow-text">Software & Licensing</h6>
+					<p class="mt-3">Provision and installation of genuine software with license management.</p>
+				</div>
+				<div class="grid-item">
+					<img src="./images/consulting.png">
+					<h6 class="yellow-text">IT Consulting</h6>
+					<p class="mt-3">Tailored IT solutions, cloud migration, and ongoing technical support.</p>
+				</div>
+			</div>
+		</div>
+	</div>
 
-  <!-- Stats -->
-  <section class="stats">
-    <div class="stat">
-      <h3>10+</h3>
-      <p>Years of IT Experience</p>
-    </div>
-    <div class="stat">
-      <h3>500+</h3>
-      <p>Happy Clients</p>
-    </div>
-    <div class="stat">
-      <h3>100%</h3>
-      <p>Customer Satisfaction Goal</p>
-    </div>
-  </section>
+	<!-- Stats -->
+	<div class="stats mt-4" data-aos="fade-up" data-aos-duration="2000">
+		<div class="stats-left">
+			<i class="green">Our Impact</i>
+			<h4 class="mt-2">Building a legacy of <span class="green-text">innovation in technology</span></h4>
+		</div>
+		<div class="stats-right">
+			<p>We are proud of our contribution to digital transformation and reliable IT support for businesses.</p>
+			<div class="stats-countdown mt-1">
+				<div class="stats-countdown-item">
+					<h3 class="green-text">10+ Years</h3>
+					<p>Industry experience in IT solutions and computer systems.</p>
+				</div>
+				<div class="stats-countdown-item">
+					<h3 class="green-text">500+</h3>
+					<p>Satisfied clients across different industries.</p>
+				</div>
+			</div>
+		</div>
+	</div>
 
-  <!-- Solutions -->
-  <section id="solutions" class="section">
-    <h2>Our Approach</h2>
-    <div class="process">
-      <div class="step">
-        <h3>1. Consultation</h3>
-        <p>We analyze your needs and define the best IT solutions for you.</p>
-      </div>
-      <div class="step">
-        <h3>2. Solution Design</h3>
-        <p>We create a customized technology plan that suits your goals.</p>
-      </div>
-      <div class="step">
-        <h3>3. Implementation</h3>
-        <p>From installation to configuration, we make your systems work.</p>
-      </div>
-      <div class="step">
-        <h3>4. Ongoing Support</h3>
-        <p>We provide continuous maintenance and IT support services.</p>
-      </div>
-    </div>
-  </section>
+	<!-- Team -->
+	<div class="team mt-4" id="about" data-aos="fade-up" data-aos-duration="2000">
+		<div class="team-left">
+			<i class="purple">Leadership</i>
+			<h3 class="mt-2">Meet the team behind Lauthan Technology</h3>
+			<p class="mt-2">Our skilled leadership team brings expertise in IT, customer service, and digital solutions to empower our clients.</p>
+			<div class="mt-5">
+				<a href="#contact" class="filled-button-purple">Get in Touch</a>
+			</div>
+		</div>
+		<div class="team-right">
+			<img src="./images/team.png" alt="Team">
+		</div>
+	</div>
 
-  <!-- Careers -->
-  <section id="careers" class="section">
-    <h2>Careers</h2>
-    <p>
-      Interested in joining Lauthan Technology? We’re always looking for
-      passionate individuals in IT, networking, and customer support.  
-      Send your CV to <a href="mailto:careers@lauthantech.com">careers@lauthantech.com</a>.
-    </p>
-  </section>
+	<!-- Solutions -->
+	<div class="process mt-4" id="solutions">
+		<div class="process-left">
+			<i class="yellow">Solutions</i>
+			<h3 class="mt-5">Our step-by-step approach to IT success</h3>
+			<div class="mt-5">
+				<a href="#contact" class="filled-button">Explore Solutions</a>
+			</div>
+		</div>
+		<div class="process-right">
+			<div class="process-right-item">
+				<img src="./images/consult.png">
+				<div class="text">
+					<h5>Consultation</h5>
+					<p class="mt-3">Understanding your needs to design the right IT solutions.</p>
+				</div>
+			</div>
+			<div class="process-right-item">
+				<img src="./images/implement.png">
+				<div class="text">
+					<h5>Implementation</h5>
+					<p class="mt-3">Deploying hardware, software, and networks efficiently.</p>
+				</div>
+			</div>
+			<div class="process-right-item">
+				<img src="./images/support.png">
+				<div class="text">
+					<h5>Support</h5>
+					<p class="mt-3">Providing ongoing maintenance, upgrades, and user support.</p>
+				</div>
+			</div>
+		</div>
+	</div>
 
-  <!-- Contact -->
-  <section id="contact" class="section">
-    <h2>Contact Us</h2>
-    <p>We’d love to hear from you! Reach out to us today:</p>
-    <ul>
-      <li>Email: <a href="mailto:info@lauthantech.com">info@lauthantech.com</a></li>
-      <li>Phone: +263 (0) 77 000 0000</li>
-      <li>Address: Harare, Zimbabwe</li>
-    </ul>
-  </section>
+	<!-- News -->
+	<div class="blog mt-4" id="blog">
+		<i class="purple">News & Insights</i>
+		<div class="blog-top mt-1">
+			<div class="blog-top-text">
+				<h3>Latest <span>updates</span> from Lauthan Technology</h3>
+				<p class="mt-2">Stay informed on our products, promotions, and IT industry insights.</p>
+			</div>
+			<div class="blog-top-button">
+				<a href="#" class="filled-button">View all</a>
+			</div>
+		</div>
+		<div class="blog-post mt-1">
+			<div class="post">
+				<img src="./images/blog1.png" alt="Tech Innovation">
+				<h6 class="mt-2">Expanding IT Support Services</h6>
+				<p class="mt-3">Our new helpdesk services ensure quicker and more reliable support.</p>
+			</div>
+			<div class="post">
+				<img src="./images/blog2.png" alt="Networking">
+				<h6 class="mt-2">Reliable Networking Solutions</h6>
+				<p class="mt-3">How Lauthan Technology is enhancing connectivity for SMEs.</p>
+			</div>
+			<div class="post">
+				<img src="./images/blog3.png" alt="Cloud Solutions">
+				<h6 class="mt-2">Cloud & Data Security</h6>
+				<p class="mt-3">Ensuring your business data is safe and always accessible.</p>
+			</div>
+		</div>
+	</div>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <p>© 2025 Solatech Computers Private Limited (Trading as Lauthan Technology). All Rights Reserved.</p>
-    <ul>
-      <li><a href="#">Privacy Policy</a></li>
-      <li><a href="#">Terms & Conditions</a></li>
-      <li><a href="#">Cookie Policy</a></li>
-    </ul>
-  </footer>
+	<!-- Footer -->
+	<div class="footer mt-4" id="contact">
+		<img src="./images/logo.png" alt="Lauthan Technology Logo">
+		<ul class="footer-items">
+			<li><a href="#">Home</a></li>
+			<li><a href="#about">About Us</a></li>
+			<li><a href="#services">Products & Services</a></li>
+			<li><a href="#solutions">Solutions</a></li>
+			<li><a href="#careers">Careers</a></li>
+		</ul>
+		<div class="footer-social-media">
+			<i class="fa-brands fa-linkedin"></i>
+			<i class="fa-brands fa-twitter"></i>
+			<i class="fa-brands fa-facebook"></i>
+		</div>
+	</div>
+	<div class="sub-footer mt-1">
+		<p>&copy; 2025 Solatech Computers Private Limited (Trading as Lauthan Technology). All rights reserved.</p>
+		<ul class="footer-items">
+			<li><a href="#">Privacy Policy</a></li>
+			<li><a href="#">Terms & Conditions</a></li>
+			<li><a href="#">Cookie Policy</a></li>
+		</ul>
+	</div>
 
-  <script src="./js/molecule.js"></script>
-</body>
-</html>
+	<script t
